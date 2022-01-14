@@ -1,0 +1,26 @@
+.register{
+	grid-column: 2 / 6;
+	padding: 10px;
+}
+.register form{
+	display: flex;
+	flex-direction: column;
+	box-shadow: var(--color-shadow);
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 10px;
+}
+.register .form-control{
+
+}
+.register .form-control label{
+	
+	margin-left: 10px;
+}
+.register input{
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid #888;
+	outline: none;
+	padding: 8px
+}
