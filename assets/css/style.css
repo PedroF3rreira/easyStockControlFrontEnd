@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Mochiy+Pop+P+One&display=swap');
+*{
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	font-family: 'Arial', 'Verdana', sans-serif;
+}
+body{
+	background-color: rgba(0,0,0,.1);
+	color: #fff;
+}
+.container{
+	max-width: 1100px;
+	margin: auto;
+}
+.header{
+	background: linear-gradient(0deg, rgba(34,193,195,1) 20%, rgba(45,177,253,1) 100%);
+	height: 80px;
+	box-shadow: 0em 0em 0.3em #000;
+}
+.header-area{
+	display: flex;
+	align-items: center;
+	height: 100%;
+	
+}
+.header-left{
+	width: 200px;
+}
+.header-left .logo{
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0em 0.1em 0.1em #000;
+	font-family:  'Mochiy Pop P One', sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+}
+.header-right{
+	display: flex;
+	flex: 1;
+	justify-content: flex-end;
+	
+}
+.header-right input{
+	padding: 5px;
+	border-radius: 5px;
+	outline: none;
+	width: 200px;
+}
+
+/**estilos do formulario dse login**/
+main{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('../image/bg-main.jpg');
+	background-position: center;
+	background-size: cover;	
+	height: 100vh;
+}
+.mark-area{
+	width: 450px;
+	padding: 3px;
+}
+.mark-area h1{
+	
+	text-transform: uppercase;
+	text-shadow: 0em 0.1em 0.1em #222;
+	font-size: 50px;
+	font-family: 'Lato', sans-serif;
+	
+}
+.mark-area h1 .material-icons{
+	font-size: 60px;
+}
+.mark-area p{
+	margin-top: 20px;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	text-shadow: 0em 0.1em 0.1em #222;
+}
+.login-area {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 5px;
+	width: 600px;
+	color: #000;
+	background-color: rgba(255,255,255,0.8);
+	height: 300px;
+	box-shadow: 0em 0em 0.3em #000;	
+	
+}
+
+.login-area .form-control{
+	display: flex;
+	color: #888;
+	flex-direction: column;
+	margin-top: 20px
+}
+.form-control input{
+	padding: 5px;
+	border-bottom: 1px solid #888;
+	width: 400px;
+	background-color: transparent;
+	outline: none;
+}
+.form-control input[type='submit']{
+	padding: 10px;
+	background: linear-gradient(0deg, rgba(34,193,195,1) 20%, rgba(45,177,253,1) 100%);
+	font-size: 20px;
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: 0em 0em 0.1em #000;	
+	
+}
+.form-control input[type='submit']:hover{
+	box-shadow: 0em 0em 0.5em rgba(45,177,253,1);	
+}
+.login-area a{
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 25px;
+	text-decoration: none;
+	font-size: 13px;
+	color: rgba(45,177,253,1);
+}
+.login-area a:hover{
+	color: rgba(1,100,255,1)	
+}
