@@ -17,10 +17,21 @@
 	
 	margin-left: 10px;
 }
-.register input{
+.register .form-control input,
+.register .form-control select,
+.register .form-control textarea{
 	margin-bottom: 10px;
 	border-radius: 5px;
 	border: 1px solid #888;
 	outline: none;
 	padding: 8px
+}
+
+.register .form-control select{
+	
+	text-transform: uppercase;
+}
+
+.register .form-control textarea{
+	resize: none;
 }

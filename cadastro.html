@@ -43,21 +43,21 @@
 						<div class="form-control">
 							<label for="small_desc">Descrição</label>
 							<input type="text" name="small_desc" id="small_desc" required>
-
-							<label for="price">Preço</label>
-							<input type="text" name="price" id="price" required>
-
-						</div>
-
-						<div class="form-control">
-							<label for="long_desc">Descrição Longa</label>
-							<input type="text" name="long_desc" id="long_desc" required>
-
 						</div>
 						
 						<div class="form-control">
 							<label for="price">Preço</label>
 							<input type="text" name="price" id="price" required>
+						</div>
+
+						<div class="form-control">
+							<label for="qtd">Qtd</label>
+							<input type="number" name="qtd" id="qtd" min="1" required>
+						</div>
+
+						<div class="form-control">
+							<label for="qtd_min">Qtd mínima</label>
+							<input type="number" name="qtd_min" id="qtd_min" min="1" required>
 						</div>
 						
 						<div class="form-control">
@@ -67,6 +67,11 @@
 								<option value="2">Quality</option>
 								<option value="3">Fortlev</option>
 							</select>
+						</div>
+
+						<label for="long_desc">Descrição Longa:</label>
+						<div class="form-control">
+							<textarea cols="50" rows="10" name="long_desc" id="long_desc"></textarea> 
 						</div>
 						
 					</form>

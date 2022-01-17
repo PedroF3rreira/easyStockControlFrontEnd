@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 17-Jan-2022 às 15:42
+-- Tempo de geração: 17-Jan-2022 às 20:35
 -- Versão do servidor: 10.4.22-MariaDB
 -- versão do PHP: 7.4.26
 
@@ -64,7 +64,8 @@ CREATE TABLE `products` (
   `id_user` int(11) NOT NULL,
   `qty` int(11) NOT NULL,
   `qty_min` int(11) NOT NULL,
-  `included_at` datetime DEFAULT NULL
+  `included_at` datetime DEFAULT NULL,
+  `url_image` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
