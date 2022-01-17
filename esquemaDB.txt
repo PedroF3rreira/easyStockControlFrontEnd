@@ -1,0 +1,33 @@
+ESQUEMA DO BANCO DE DADOS
+
+banco: estoque
+
+tabelas:
+	--users
+		-id
+		-name
+		-email
+		-password
+		-token
+		-type
+
+	--products
+		-id
+		-smallDesc
+		-longDesc
+		-price
+		-id_provider
+		-id_user
+		-qty
+		-qty_min
+		-included_at
+
+	--providers
+		-name
+		-
+		-cnpj
+		-cpf
+		-address   
+		-phone
+		-email
+
