@@ -20,7 +20,7 @@ body{
 	background-color: rgba(0,0,0,.1);
 }
 
-/***estilos de containers***/
+/***estilos dos containers***/
 .container{
 	max-width: 1140px;
 	margin: auto;
@@ -30,7 +30,6 @@ body{
 	grid-template-columns: repeat(8, 1fr);
 
 }	
-
 .content-area1{
 	grid-column: 2 / 6;
 	padding-left: 10px;
@@ -158,6 +157,8 @@ body{
 	background-color: #fff;
 	border-radius: 5px;
 	padding: 15px;
+
+	margin-bottom: 20px;
 }
 .form-control label{
 	margin-left: 10px;
@@ -189,4 +190,27 @@ body{
 }
 .botton[type='submit']:hover{
 	box-shadow: 0em 0em 0.5em var(--color-blue-medium);	
-} 
+}
+
+/*Estilos de tabelas geral do sistema*/ 
+
+table{
+	box-shadow: var(--color-shadow);
+	width: 100%;
+	margin-top: 30px;
+	background-color: #FFF;
+	border-radius: 5px;
+	border-collapse: collapse;
+}
+th{
+	background: var(--color-blue-medium);
+	color: #fff;
+}
+table, tr, td, th{
+	border: 1px solid rgba(0,0,0,.2);
+	padding: 10px;
+
+}
+td{
+	text-align: center;
+}
